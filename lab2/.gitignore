@@ -1,6 +1,5 @@
 # Lattice Radiant and Segger Embedded Studio files
 *.html
-impl*/
 *.xml
 .build_status
 .run_manager.ini
@@ -18,3 +17,36 @@ impl*/
 **/Debug/
 *.emSession
 *.jlink
+
+# macOS junk
+.DS_Store
+
+# Lattice Radiant build artifacts
+*.udb
+*.bin
+*.vdb
+*.arearep
+*.bgn
+*.drc
+*.mrp
+*.p2t
+*.pad
+*.par
+*.pwrprd
+*.t2b
+*.twr
+*.vm
+*.hrr
+*.lsedata
+*.psn
+*.synproj
+
+# Intermediate / auto-generated project files
+*.synthesis_touch
+*.txt
+*.ini
+
+# Build directories
+impl_1/
+**/Output/
+**/Debug/
