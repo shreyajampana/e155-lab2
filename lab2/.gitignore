@@ -47,6 +47,8 @@
 *.ini
 
 # Build directories
-impl_1/
+impl_1/*
+!impl_1/*.sv
+!impl_1/*.tv
 **/Output/
 **/Debug/
