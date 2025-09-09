@@ -18,7 +18,7 @@ module lab2_sj_testbench();
 	logic [4:0] led;
 	
 	//Instantiating the top level module, which is the dut
-	lab2_sj top(reset, s_count_top[3:0], s_count_top[7:4], enable, seg, led);
+	lab2_sj dut(reset, s_count_top[3:0], s_count_top[7:4], enable, seg, led);
 	
 	//Generate clock
 	always
@@ -47,3 +47,4 @@ module lab2_sj_testbench();
 	
 	
 endmodule
+
