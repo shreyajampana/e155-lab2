@@ -17,7 +17,7 @@ module multiplexer_sj_testbench();
 	logic [7:0] s_counter;
 	
 	//Instantiating the multiplexer module, which is the dut
-	multiplexer_sj mux(clk, reset, s_counter[3:0], s_counter[7:4], enable, s);
+	multiplexer_sj dut(clk, reset, s_counter[3:0], s_counter[7:4], enable, s);
 	
 	//Generate clock
 	always
@@ -62,3 +62,4 @@ endmodule
 	
 	
    
+
